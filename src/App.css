@@ -43,3 +43,12 @@
   background-color: #e74c3c;
   color: white;
 }
+.loader {
+  margin-top: 50vh;
+  color:rgb(69, 79, 112);
+  font-weight: bold;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

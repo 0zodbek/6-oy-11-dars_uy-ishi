@@ -30,8 +30,8 @@ function App() {
       });
   }, []);
 
-  if (isLoading) return <div> Ozro kuting... </div>;
-  if (error) return <div> Xatolik: {error}</div>;
+  if (isLoading) return <div className='loader'> Loading... </div>;
+  if (error) return <div> Error: {error}</div>;
 
   return (
     <div className="App">
